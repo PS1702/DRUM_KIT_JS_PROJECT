@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DRUM KIT</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="flex">
+        <div id="1" class="keys" onclick="play1()">A
+            <BR>
+            <div class="name">
+                clap
+            </div>
+            <audio id="audio1" src="music/clapping.wav"></audio>
+        </div>
+        <div id="2" class="keys" onclick="play2()">S
+            <BR>
+            <div class="name">
+                hihat
+            </div>
+            <audio src="music/hihat.mp3" id="audio2"></audio>
+        </div>
+        <div id="3" class="keys" onclick="play3()">D
+            <BR>
+            <div class="name">
+                kick
+            </div>
+            <audio src="music/keys.mp3" id="audio3"></audio>
+        </div>
+        <div id="4" class="keys" onclick="play4()">F
+            <BR>
+            <div class="name">
+                openhat
+            </div>
+            <audio src="music/openhat.mp3" id="audio4"></audio>
+        </div>
+        <div id="5" class="keys" onclick="play5()">G
+            <BR>
+            <div class="name">
+                boom
+            </div>
+            <audio src="music/boom.mp3" id="audio5"></audio>
+        </div>
+        <div id="6" class="keys" onclick="play6()">H
+            <BR>
+            <div class="name">
+                ride
+            </div>
+            <audio src="music/ride.mp3" id="audio6"></audio>
+        </div>
+        <div id="7" class="keys" onclick="play7()">J
+            <BR>
+            <div class="name">
+                snare
+            </div>
+            <audio src="music/snare.mp3" id="audio7"></audio>
+        </div>
+        <div id="8" class="keys" onclick="play8()">K
+            <BR>
+            <div class="name">
+                tom
+            </div>
+            <audio src="music/tom.mp3" id="audio8"></audio>
+        </div>
+        <div id="9" class="keys" onclick="play9()">L
+            <BR>
+            <div class="name">
+                tink
+            </div>
+            <audio src="music/tink.mp3" id="audio9"></audio>
+        </div>
+        <!-- <div class="music">
+            <div id="music_clap">
+                <audio controls="audio" src="music/clapping.wav"></audio>
+            </div>
+        </div> -->
+    </div>
+    <!-- javascript source below -->
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
